@@ -1,0 +1,109 @@
+*{
+  padding:0;
+  margin: 0;
+}
+
+body {
+  background-color: #000000;
+  color:#66fcf1;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+h1{
+  width: 100vw;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-style: normal;
+  padding: 20px 0px;
+  color: #48f6ff;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  background-image: url("black.png");;
+}
+
+.form {
+  width: 90vw;
+  margin: 0px auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  color: #66fcf1;
+  box-shadow: 0 0 20px rgb(108, 248, 255);
+  height: 65vh;
+
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #47fcff;
+  border-radius: 5px;
+  resize: none;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 40vw;
+}
+#review{
+  margin-left: 10vw;
+  height: 26vh;
+  justify-content: center;
+}
+input[type="submit"]:hover {
+  background-color: #15696a;
+}
+
+h2{
+  text-align: center;
+  font-size: 23px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.final{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  margin-left: 30px;
+}
+.about{
+  padding-top: 32px;
+  margin-top: 30px;
+  background-color: #292929;
+  color: #fff;
+  font-family:'Times New Roman', Times, serif;
+  font-style: normal;
+}
+
+.abouthead{
+  font-size: 1.2rem ;
+  margin-bottom: 15px;
+}
+
+h3{
+  margin-left: 10px;
+}
+
+p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
