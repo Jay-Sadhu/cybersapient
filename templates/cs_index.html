@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review Sentiment Analysis</title>
+    <link rel="stylesheet" href="/static/cs_st.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Movie Review Sentiment Analysis Project</h1>
+        <div class="form">
+            <form action="/" method="POST">
+                <label for="review">
+                    <h2>How was the movie ?</h2>
+                </label><br>
+                <textarea name="review" id="review" rows="4" cols="50"></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+            <div class="final">
+                {% if result %}
+                <h3>Result:</h3>
+                <p>{{ result }}</p>
+                {% endif %}
+            </div>
+        </div>
+        <div class="about">
+            <div class="abouthead">
+                <h3>About the Project</h3>
+            </div>
+            <p>
+                Welcome to the Movie Review Sentiment Analysis Project, I am Sadhu Jay Vardhan, a student pursuing B.Tech at Mahindra University. This project was undertaken as an assignment for Cybersapient, a renowned company specializing in cutting-edge technologies.<br><br>
+                The objective of this project is to provide an intelligent system that performs sentiment analysis on movie reviews, allowing users to gain insights into the overall sentiment expressed in the reviews. The system leverages advanced natural language processing techniques and machine learning algorithms to accurately classify reviews as positive or negative. By analyzing the sentiments, users can make informed decisions and better understand public opinions regarding movies. The project utilizes the popular Flask framework and integrates with a powerful sentiment analysis model trained on the IMDB dataset. The model employs a combination of text preprocessing, TF-IDF vectorization, and logistic regression to achieve robust sentiment classification.<br><br>
+    
+            </p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
