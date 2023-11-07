@@ -1,14 +1,3 @@
-My name is Sadhu Jay Vardhan, and I am currently in my third year of B.Tech, specializing in Artificial Intelligence at Mahindra University. My sincere gratitude for providing internship opportunities to students from Mahindra University. Cybersapient, being a renowned company specializing in cutting-edge technologies, is a dream workspace for any aspiring professional.
-
-The task I choosen by me is to integrate the Movie Review System model with streamlit, I decided to leverage my expertise in Flask, as I felt more comfortable and proficient with it. I apologize for deviating from the specified requirement of using Streamlit, but given the limited time and my familiarity with Flask, I believed it would allow me to deliver the project within the given deadline.
-
-During the deployment process, I encountered some challenges while using Zeet and PythonAnywhere. Unfortunately, my attempts to resolve these issues were not successful. In order to provide you with a clear understanding of the output, I have recorded a video documenting the website built using flask for better understanding on how it turned out to be.
-
------------------Please watch the video---------------------
-
-
-------------------------------------------------------------------------------------------------------------------------------------------
-
 Regarding the Project:
 
 Sentiment Analysis with Summarization and Translation :
